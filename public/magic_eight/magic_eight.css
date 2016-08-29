@@ -24,7 +24,9 @@ img {
 @media(max-width:375px) {
 	#answer {
 		position: absolute;
-		margin-top: -25%;
+		margin-top: 100%;
+		border: 2px solid red;
+
 	}
 }
 
@@ -32,6 +34,7 @@ img {
 @media(max-width:1440px) {
 	#answer {
 		position: absolute;
-		margin-top: -4%;
+		margin-top: 1%;
+
 	}
 }

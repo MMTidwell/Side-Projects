@@ -76,7 +76,7 @@
 					$("#answer").html(" Concentrate " + "<br>" + "and ask again");
 					break;
 				case 16:
-					$("#answer").html(" Don't count " + "<br>" + "ion it");
+					$("#answer").html(" Don't count " + "<br>" + "on it");
 					break;
 				case 17:
 					$("#answer").html(" My reply " + "<br>" + "is no");
