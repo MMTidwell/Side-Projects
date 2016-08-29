@@ -19,3 +19,19 @@ img {
 	top: 47%;
 	width: 100%;
 }
+
+/* FULL SCREEN */
+@media(max-width:375px) {
+	#answer {
+		position: absolute;
+		margin-top: -25%;
+	}
+}
+
+/* PHONE SCREEN */
+@media(max-width:1440px) {
+	#answer {
+		position: absolute;
+		margin-top: -4%;
+	}
+}
