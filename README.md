@@ -1,5 +1,5 @@
-MAGIC EIGHT BALL
+MAGIC EIGHT BALL - <br>
 Getting annoyed with not knowing all the answers to all of your questions?? Look no further, this magic eight ball knows everything. This was built using AJAX, jQuery, JavaScript, HTML5, and CSS. I used JavaScript to build an array of 20+ answers that are shown at random. The largest area of oppertunity that I faced while building this was, getting the answer to fit just right in the middle of the 8 ball. I was able to over come this challenge by placing the answer in the triangle on the HTML, and using pixles in order to get it in just the right place. Another area of oppertunity for me was getting the 8 ball to shake in a natural way. This was accomplished by using webkit keyframes, and animations. 
 
-QUILT
+QUILT - <br>
 Needing a quilt for those cold winters?! This prototype site is built for my stepmother who has her own quilting shop and in great need of a updated site for her customers who live near and far. This site was built using basic HTML, CSS, and JS. The link for "OWNER" will show you what Sheila would see when she logs into the site, otherwise you have the ability to see the site from a user and viwer pov. The way the site is currently set up is for viewablity for everyone without logging in. Also the site is bare bones and not terrably visually appealing but is completley responsive. 
