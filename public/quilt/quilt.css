@@ -1,0 +1,96 @@
+/* MAIN */
+/* ======================================================= */
+body {
+	margin: 0;
+	background-image: url("img/sheek.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;	
+	background-attachment: fixed;
+}
+
+/* NAVBAR */
+/* ======================================================= */
+.navbar {
+	background-color: slategrey;
+}
+
+ul.topnav {
+	list-style: none;
+	font-weight: bolder;
+	margin: 0;
+	overflow: hidden;
+	text-align: right;
+}
+	
+ul.topnav li {
+	float: right;
+}
+
+ul.topnav li a {
+	font-size: 1.5em;
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	padding: 15px;
+	color: black;
+}
+
+ul.topnav li a:hover {
+	background-color: lightgrey;
+};
+
+ul.topnav li.icon  {
+	display: none;
+}
+
+/* WELCOMING */
+/* ======================================================= */
+.intro {
+	margin: 10% 5% 10% 20%;
+	padding: 1%;
+	font-size: 2em;
+	background-color: rgba(112, 138, 144, 0.5);
+	text-align: center;
+	font-weight: bolder;
+}
+
+/* MEDIA */
+/* ======================================================= */
+@media screen and (max-width: 680px) {
+	ul.topnav li:not(:first-child) {
+		display: none;
+	}
+
+	ul.topnav li.icon {
+		float: right;
+		display: inline-block;
+	}
+
+	.intro {
+		margin: 10% 0% 10% 0%;
+	}
+}
+
+@media screen and (max-width: 680px) {
+	ul.topnav.responsive {
+		position: relative;
+	}
+
+	ul.topnav.responsive li.icon {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+
+	ul.topnav.responsive li {
+		float: none;
+		display: inline;
+	}
+
+	ul.topnav.responsive li a {
+		display: block;
+		text-align: left;
+	}
+}
+
+
