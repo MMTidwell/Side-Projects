@@ -56,7 +56,7 @@ ul.topnav li.icon  {
 
 /* MEDIA */
 /* ======================================================= */
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 692px) {
 	ul.topnav li:not(:first-child) {
 		display: none;
 	}
@@ -71,7 +71,7 @@ ul.topnav li.icon  {
 	}
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 692px) {
 	ul.topnav.responsive {
 		position: relative;
 	}
@@ -92,5 +92,3 @@ ul.topnav li.icon  {
 		text-align: left;
 	}
 }
-
-
